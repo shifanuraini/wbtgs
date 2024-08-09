@@ -1,0 +1,311 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Blue button background */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff; /* White header background */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #fff; /* White hero background */
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 40px 0;
+    background-color: #FFD700; /* Yellow features background */
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  /* Popular Courses Section */
+  .popular-courses {
+    padding: 40px 0;
+    background-color: #fff; /* White courses background */
+  }
+  
+  .course-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .course-categories a {
+    background-color: #f0f0f0; /* Light gray category background */
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .course {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .course img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .course-info {
+    padding: 15px;
+  }
+  
+  .course-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Membership Section */
+  .membership {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #fff; /* White membership background */
+  }
+  
+  .membership-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .membership-image img {
+    max-width: 500px;
+  }
+  
+  /* Popular Categories Section */
+  .popular-categories {
+    padding: 40px 0;
+    background-color: #fff; /* White categories background */
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category {
+    width: calc(16.6666666667% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Business Section */
+  .business {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #FFD700; /* Yellow business background */
+  }
+  
+  .business-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .business-image img {
+    max-width: 500px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333; /* Dark gray footer background */
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content .logo img {
+    height: 50px;
+  }
+  
+  .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .social {
+    display: flex;
+  }
+  
+  .social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+  
+    .hero-content {
+      padding-right: 0;
+    }
+  
+    .hero-image img {
+      max-width: 100%;
+    }
+  
+    .features .feature {
+      flex-direction: column;
+    }
+  
+    .courses {
+      flex-direction: column;
+    }
+  
+    .course {
+      width: 100%;
+    }
+  
+    .membership {
+      flex-direction: column;
+    }
+  
+    .membership-content {
+      padding-right: 0;
+    }
+  
+    .membership-image img {
+      max-width: 100%;
+    }
+  
+    .business {
+      flex-direction: column;
+    }
+  
+    .business-content {
+      padding-right: 0;
+    }
+  
+    .business-image img {
+      max-width: 100%;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+    }
+  }
